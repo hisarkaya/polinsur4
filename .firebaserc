@@ -1,0 +1,42 @@
+{
+  "projects": {
+    "master": "polinsur-66a5c",
+    "prod": "polinsur-66a5c"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "version": "${npm_package_version}",
+        "env": "development",
+        "firebase": {
+          "apiKey": "AIzaSyCzX7wKVZ5vzCt0tG1A50EraG8awTwvR38",
+          "authDomain": "polinsur-66a5c.firebaseapp.com",
+          "databaseURL": "https://polinsur-66a5c.firebaseio.com",
+          "projectId": "polinsur-66a5c",
+          "storageBucket": "polinsur-66a5c.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "version": "${npm_package_version}",
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyCzX7wKVZ5vzCt0tG1A50EraG8awTwvR38",
+          "authDomain": "polinsur-66a5c.firebaseapp.com",
+          "databaseURL": "https://polinsur-66a5c.firebaseio.com",
+          "projectId": "polinsur-66a5c",
+          "storageBucket": "polinsur-66a5c.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
