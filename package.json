@@ -91,7 +91,7 @@
     "husky": "^0.14.3",
     "ip": "^1.1.5",
     "istanbul-instrumenter-loader": "^3.0.0-rc.1",
-    "karma": "^1.7.0",
+    "karma": "^6.3.16",
     "karma-coverage-istanbul-reporter": "^1.3.0",
     "karma-mocha": "^1.3.0",
     "karma-mocha-reporter": "^2.2.1",
